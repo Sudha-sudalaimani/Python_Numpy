@@ -1,0 +1,7 @@
+#21.	Create a Python class that represents an array and has an additional attribute called name to store the name of the array.
+class NamedArray:
+    def __init__(self, array, name):
+        self.array = array
+        self.name = name
+arr = NamedArray(np.array([1,2,3]), 'MyArray')
+print(arr.name, arr.array)
